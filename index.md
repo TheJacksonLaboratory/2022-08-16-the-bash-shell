@@ -306,7 +306,7 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete the surveys that you will get before and after the workshop.</p>
+<p>Please be sure to complete the surveys that you will get after the workshop.</p>
 {% if site.carpentry == "incubator" %}
 <p><a href="{{ site.incubator_pre_survey }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.incubator_post_survey }}">Post-workshop Survey</a></p>
@@ -325,7 +325,7 @@ Insert correct post-workshop suvery link here, then remove comment braces and de
 <p><a href="https://forms.office.com/r/pFcYHigq6j">Post-workshop Survey</a></p>
 {% endcomment %}
 {% comment %}
-<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<p><a href="https://forms.office.com/r/pFcYHigq6j">Post-workshop Survey</a></p>
 {% endcomment %}
 {% endif %}
 
